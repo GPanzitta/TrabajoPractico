@@ -1,0 +1,84 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+
+}
+h1{
+text-decoration: underline;
+color:red;
+text-align: center;
+align:center;
+}
+p{
+text-align: center;
+
+}
+.container{
+
+padding-bottom: 5em;
+}
+.pregunta_1{
+  background-color:#A94233;
+border: 1px solid white;
+width: 30%;
+
+}
+.pregunta_2{
+    background-color:#A94233;
+border: 1px solid white;
+width: 30%;
+margin-left: 31%;
+margin-top:-10.38%;
+
+}
+.pregunta_3{
+    background-color:#A94233;
+border: 1px solid white;
+width: 30%;
+margin-left: 62%;
+margin-top:-10.38%;
+
+}
+.pregunta_4{
+    background-color:#A94233;
+border: 1px solid white;
+width: 30%;
+
+}
+.pregunta_5{
+    background-color:#A94233;
+border: 1px solid white;
+width: 30%;
+margin-left: 31%;
+margin-top:-10.38%;
+
+}
+.pregunta_6{
+background-color:#A94233;
+border: 1px solid white;
+width: 30%;
+margin-left: 62%;
+margin-top:-10.38%;
+
+}
+#trivia{
+border: 1px solid white;
+padding-bottom: 5em;
+
+}
+.boton{
+position: relative;
+left: 40%;
+top: 3em;
+border-radius: 25px;
+}
+.despues{
+position: absolute;
+border:1px solid white;
+left: 45em;
+bottom: 5em;
+
+}
+#correctaa{
+
+
+}
