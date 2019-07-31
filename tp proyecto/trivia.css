@@ -68,7 +68,7 @@ padding-bottom: 5em;
 .boton{
 position: relative;
 left: 40%;
-top: 3em;
+top: 1em;
 border-radius: 25px;
 }
 .despues{
@@ -78,7 +78,42 @@ left: 45em;
 bottom: 5em;
 
 }
-#correctaa{
+#Correcta{
+  display: none;
+border: 1px solid black;
+text-align: center;
+background-color: #CFCACA;
+}
+#mensajes{
+  display: none;
+margin-top: 0.2em;
+border: 1px solid black;
+text-align: center;
+background-color: #CFCACA;
+}
+#imagenes{
+  display: none;
+border: 1px solid black;
+margin-left: 5em;
+}
+.green{
+display: none;
+width: 3%;
+height: 3%;
+}
+.red{
+display: none;
+width: 4%;
+height:4%;
+}
+#rendicion{
+position: absolute;
+top: -7em;
+border: 1px solid black;
+text-align: center;
+background-color: #CFCACA;
 
-
+}
+footer{
+  left;
 }

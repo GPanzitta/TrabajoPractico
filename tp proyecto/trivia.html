@@ -15,15 +15,15 @@
   <form id="trivia"name="trivia">
 <div class="pregunta_1">
   <p class="pregunta">Pregunta 1:¿Quien gano el ultimo mundial de futbol? </p>
-  <p id="correctaa">Francia<input type="radio" name="respuesta" value="correcta"></p>
-  <p>Croacia<input type="radio" name="respuesta" value=""></p>
+  <p id="correctaa"><img class="green" id="green" src="img/check.png" alt="">Francia<input type="radio" name="respuesta" value="correcta"></p>
+  <p><img id="red" class="red" src="img/red.png" alt="">Croacia<input type="radio" name="respuesta" value="incorrecto"></p>
   <p>Brasil<input type="radio" name="respuesta" value=""></p>
   <p>Alemania<input type="radio" name="respuesta" value=""></p>
 </div>
 <div class="pregunta_2">
   <p class="pregunta">Pregunta 2:¿Como se llama el elemento de la tabla periodica denominado "K" </p>
-  <p >Uranio<input type="radio" name="respuesta_2" value=""></p>
-  <p id="correctaaa">Potasio<input type="radio" name="respuesta_2" value="correcta_2"></p>
+  <p ><img id="red_2" class="red" src="img/red.png" alt="">Uranio<input type="radio" name="respuesta_2" value="incorrecto_2"></p>
+  <p id="correctaaa"><img class="green"id="green_2" src="img/check.png" alt="">Potasio<input type="radio" name="respuesta_2" value="correcta_2"></p>
   <p>Hidrogeno<input type="radio" name="respuesta_2" value=""></p>
   <p>Platino<input type="radio" name="respuesta_2" value=""></p>
 </div>
@@ -32,31 +32,31 @@
   <p>11<input type="radio" name="respuesta_3" value=""></p>
   <p>5<input type="radio" name="respuesta_3" value=""></p>
   <p>10<input type="radio" name="respuesta_3" value=""></p>
-  <p id="correctaaaa">20<input type="radio" name="respuesta_3" value="correcta_3"></p>
+  <p id="correctaaaa"><img class="green"id="green_3" src="img/check.png" alt="">20<input type="radio" name="respuesta_3" value="correcta_3"></p>
 </div>
 <div class="pregunta_4">
   <p class="pregunta">Pregunta 4:¿Como se llaman los animales que comen <b>SOLAMENTE</b> carne?  </p>
  <p>veganos<input type="radio" name="respuesta_4" value="">
   <p>omnivoros<input type="radio" name="respuesta_4" value="">
   <p>hervivoros<input type="radio" name="respuesta_4" value="">
-  <p id="correctaaaaa">carnivoros<input type="radio" name="respuesta_4" value="correcta_4">
+  <p id="correctaaaaa"><img class="green"id="green_4" src="img/check.png" alt="">carnivoros<input type="radio" name="respuesta_4" value="correcta_4">
 </div>
 <div class="pregunta_5">
   <p class="pregunta">Pregunta  5:¿Quien "descubrio" America?</p>
   <p>Los Mapuches<input type="radio" name="respuesta_5" value=""></p>
   <p>Peron<input type="radio" name="respuesta_5" value=""></p>
-  <p id="correctaaaaaa">Cristobal Colon<input type="radio" name="respuesta_5" value="correcta_5"></p>
+  <p id="correctaaaaaa"><img class="green"id="green_5" src="img/check.png" alt="">Cristobal Colon<input type="radio" name="respuesta_5" value="correcta_5"></p>
   <p>Macri<input type="radio" name="respuesta_5" value=""></p>
 </div>
 <div class="pregunta_6">
   <p class=".pregunta">Pregunta 6:¿Que se celebra el 9 de julio?  </p>
-  <p id="correctaaaaaaa">El dia de la independencia Argentina<input type="radio" name="respuesta_6" value="correcta_6"></p>
+  <p id="correctaaaaaaa"><img class="green" id="green_6" src="img/check.png" alt="">El dia de la independencia Argentina<input type="radio" name="respuesta_6" value="correcta_6"></p>
   <p>Dia orgullo gay<input type="radio" name="respuesta_6" value=""></p>
   <p>Revolucion de mayo<input type="radio" name="respuesta_6" value=""></p>
   <p>Dia del niño<input type="radio" name="respuesta_6" value=""></p>
 </div>
 <input class="boton" type="button" name="" value="comprobar!"onclick="check();" >
-<input class="boton" type="button" name="" value="Me Rindo"onclick="rendir();" >
+<input id="nosequeponer" class="boton" type="button" name="" value="Me Rindo"onclick="rendir();" >
 <div class="despues">
   <div id="Correcta">
 
@@ -65,6 +65,11 @@
 
   </div>
   <img id="imagenes" src="" alt="">
+  <div id="rendicion">
+      <div id="giveup">
+
+       </div>
+  </div>
 <footer>Esta Trivia fue hecha por Gustavo Panzitta 4°2</footer>
 </div>
 
